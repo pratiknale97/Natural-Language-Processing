@@ -1,0 +1,33 @@
+-> PROJECT CONTENT
+
+1. NLP Applications
+      1. Advanced LSTM architectures
+      2. Multi-layer LSTM architecture
+      3. Bi-directional LSTM architecture
+      4. LSTM with an attention mechanism
+      5. Neural Machine Translation
+      6. Sentiment Analysis Using LSTM
+
+PART I and PART II consists of industry based NLP dataset which can be used to design a text classifier using sequential NLP models.
+PART I 
+-> DATA DESCRIPTION : The Dataset of 50,000 movie reviews from IMDB, labelled by sentiment (positive/negative). Reviews have been preprocessed, 
+                      and each review is encoded as a sequence of word indexes (integers). For convenience, the words are indexed by their 
+                      frequency in the dataset, meaning the for that has index 1 is the most frequent word. 
+                      Use the first 20 words from each review to speed up training, using a max vocabulary size of 10,000.
+                      As a convention, "0" does not stand for a specific word, but instead is used to encode any unknown word.
+-> PROJECT OBJECTIVE : Build a sequential NLP classifier which can use input text parameters to determine the customer sentiments.
+
+PART II
+DATA DESCRIPTION : The dataset is collected from two news websites, theonion.com and huffingtonpost.com.
+                   This new dataset has the following advantages over the existing Twitter datasets:
+                   Since news headlines are written by professionals in a formal manner, there are no spelling mistakes and informal usage.
+                   This reduces the sparsity and also increases the chance of finding pre-trained embeddings. Furthermore, since the sole 
+                   purpose of TheOnion is to publish sarcastic news, we get high-quality labels with much less noise as compared to Twitter datasets.
+                   Unlike tweets that reply to other tweets, the news headlines obtained are self-contained. This would help us in teasing 
+                   apart the real sarcastic elements.
+                          Content: Each record consists of three attributes:
+                          is_sarcastic: 1 if the record is sarcastic otherwise 0
+                          headline: the headline of the news article
+                          article_link: link to the original news article. Useful in collecting supplementary data
+                          Reference: https://github.com/rishabhmisra/News-Headlines-Dataset-For-Sarcasm-Detection
+-> PROJECT OBJECTIVE : Build a sequential NLP classifier which can use input text parameters to determine the customer sentiments.
