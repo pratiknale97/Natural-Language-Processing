@@ -1,0 +1,79 @@
+-> PROJECT CONTENT
+
+
+1. INTRODUCTION TO STATISTICAL NLP TECHNIQUES
+      1. Introduction to NLP
+      2. Types of problems in NLP
+      3. Challenges in NLP
+      4. The workflow of dealing with NLP problems
+      5. Common terminology used in NLP domain
+      6. Preprocessing text data
+      7. Tokenization
+      8. Stop Words removal
+      9. Stemming
+      10. Lemmatization
+      11. Word to features
+      12. Pre-processing in NLP
+      13. Bag of Words Model
+      14. TF-IDF
+      15. Introduction to Language models
+      16. N-grams
+      17. Markovian assumption
+      18. Bi-grams and tri-grams
+
+2. WORD EMBEDDINGS
+      1. Word2Vec
+      2. Need for deep learning models
+      3. CBOW (Continuous Bag of words)
+      4. Skip gram
+      5. GLOVE
+      6. GLOVE as an alternative to Word2Vec
+      7. GLOVE explanation and cost function
+      8. Comparing the performance of GLOVE and Word2Vec
+      9. Hands-on demo – Word embedding
+      10. Case study - POS Tagging & Named Entity Recognition
+
+3. INTRODUCTION TO SEQUENTIAL MODELS
+      1. Introduction to Sequential models
+      2. What is sequential data?
+      3. Challenges of using traditional ML models to solve sequential data problems
+      4. Need for memory in neural networks
+      5. Types of sequential models – One to many, many to one, many to many
+      6. Recurrent Neural networks (RNNs)
+      7. RNN architecture
+      8. Backpropagation through time (BPTT)
+      9. Vanishing & Exploding gradients in RNNs
+      10. Long Short Term Memory (LSTM)
+      11. Concept of gates
+      12. Forget gate
+      13. Input/ output gate
+      14. Cell state
+      15. Forward propagation and backpropagation of LSTM
+      16. Hands-on – POS tagging using LSTM
+      17. Applications of LSTMs
+      18. LSTM Time series analysis 
+      
+PART I consists of industry based NLP dataset which can be used to design a text classifier using NLP and AIML techniques and models.
+->DATA DESCRIPTION : Over 600,000 posts from more than 19 thousand bloggers The Blog Authorship Corpus consists of the collected 
+                      posts of 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and
+                      over 140 million words - or approximately 35 posts and 7250 words per person. 
+                      Each blog is presented as a separate file, the name of which indicates a blogger id# and the blogger’s self-provided gender,
+                      age, industry, and astrological sign. (All are labelled for gender and age but for many, industry and/or sign is marked as 
+                      unknown.) All bloggers included in the corpus fall into one of three age groups:
+                              • 8240 "10s" blogs (ages 13-17),
+                              • 8086 "20s" blogs(ages 23-27) and
+                              • 2994 "30s" blogs (ages 33-47)
+                      For each age group, there is an equal number of male and female bloggers.
+                      Each blog in the corpus includes at least 200 occurrences of common English words. All formatting has been stripped with 
+                      two exceptions. Individual posts within a single blogger are separated by the date of the following post and 
+                      links within a post are denoted by the label url link. 
+                      Link to dataset: https://www.kaggle.com/rtatman/blog-authorship-corpus
+-> PROJECT OBJECTIVE : To build a NLP classifier which can use input text parameters to determine the label/s of the blog
+
+PART II consists of industry based problem statement which can be solved by designing a semi-rule based NLP chatbot utility.
+-> DATA DESCRIPTION : Working on sample corpus attached. Please enhance/add more data to the corpus using your linguistics skills.
+-> PROJECT OBJECTIVE : Design a python based interactive semi - rule based chatbot which can do the following:
+                        1. Start chat session with greetings and ask what the user is looking for.
+                        2. Accept dynamic text based questions from the user. Reply back with relevant answer from the designed corpus.
+                        3. End the chat session only if the user requests to end else ask what the user is looking for. 
+                        Loop continues till the user asks to end it.
